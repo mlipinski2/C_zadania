@@ -1,0 +1,13 @@
+CFLAGS=-Wall -g
+LDLIBS=-lm
+#LDFLAGS=-lm
+all	:	zadanie8 zadanie9
+
+clean	:
+	rm -f zadanie8 zadanie9 *~
+
+zadanie8x	:	zadanie8x.c
+cc -Wall zadanie8.c -o zadanie8
+
+zadanie9	:	zadanie9.c
+cc -Wall -g zadanie9.c -lm -o zadanie9
