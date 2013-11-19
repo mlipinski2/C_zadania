@@ -21,4 +21,4 @@ printf("Pierwiastek %.2lf
  
  
 return 0;
-}
+} /* zakoncze*/
