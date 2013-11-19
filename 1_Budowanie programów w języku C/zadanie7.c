@@ -21,4 +21,4 @@ printf("Pierwiastek %.2lf
  
  
 return 0;
-}
+}   /* koment przed commitem*7
