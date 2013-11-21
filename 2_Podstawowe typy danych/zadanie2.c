@@ -1,5 +1,5 @@
-#include <stdio.h>
-#include <ctype.h>
+#include <stdio.h> /*std lib IO*/
+#include <ctype.h> /* ctype gdzie znajduje sie funkcja isprint*/
 int main() {
   int kod;
   printf("Podaj kod ascii: ");
