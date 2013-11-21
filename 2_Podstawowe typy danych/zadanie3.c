@@ -16,6 +16,6 @@ int main()
                         "%d dni\n", dni
                         "%d godzin\n", godziny
                         "%d minut\n", minuty
-                        "%li sekund \n", sekundy);
+                        "%li sekund \n", sekundy); /* w owej formie formatowanie lepie wyglada niz w kazdej lini uzywanie funkcji printf*/
                 return 0;
 }
