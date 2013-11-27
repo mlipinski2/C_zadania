@@ -10,4 +10,4 @@ zadanie8x	:	zadanie8x.c
 cc -Wall zadanie8.c -o zadanie8
 
 zadanie9	:	zadanie9.c
-cc -Wall -g zadanie9.c -lm -o zadanie9
+cc -Wall -g zadanie9.c -lm -o zadanie9 #kompilacja zadania 9 z linkowaniem dla funkcji sqrt
